@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop": "parcel watch index.html"
+    "develop": "parcel index.html"
   },
   "author": "Kevin Scott",
   "license": "MIT",
