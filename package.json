@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop": "parcel index.html"
+    "develop": "parcel watch index.html"
   },
   "author": "Kevin Scott",
   "license": "MIT",
   "devDependencies": {
     "parcel": "^1.9.7"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.4"
   }
 }
