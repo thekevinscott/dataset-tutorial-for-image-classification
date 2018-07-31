@@ -1,0 +1,14 @@
+{
+  "name": "tfjs-image-classifier-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "parcel index.html"
+  },
+  "author": "Kevin Scott",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.9.7"
+  }
+}
