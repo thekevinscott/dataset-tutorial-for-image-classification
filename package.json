@@ -9,6 +9,7 @@
   "author": "Kevin Scott",
   "license": "MIT",
   "devDependencies": {
+    "eslint-config-airbnb": "^17.0.0",
     "parcel": "^1.9.7"
   },
   "dependencies": {
