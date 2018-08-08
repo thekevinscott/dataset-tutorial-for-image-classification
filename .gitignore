@@ -1,4 +1,4 @@
 .cache
 dist
 node_modules
-index.js
+src
