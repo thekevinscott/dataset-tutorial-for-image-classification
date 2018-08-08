@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop": "parcel index.html"
+    "develop": "parcel index.html --no-hmr"
   },
   "author": "Kevin Scott",
   "license": "MIT",

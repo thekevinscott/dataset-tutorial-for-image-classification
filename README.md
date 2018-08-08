@@ -12,7 +12,7 @@ It's important that the training images you use are as similar as possible to th
 
 For instance, if you're training an image classifier to recognize pictures of fruit and your training data consists of well let brightly colored fruit but your users upload grainy, low-light shots, your accuracy will suffer.
 
-## How to Build Your Own Dataset
+## Organizing your Dataset
 
 To put together a dataset for training an image classifier, you need to organize your data like so:
 
@@ -25,6 +25,16 @@ To put together a dataset for training an image classifier, you need to organize
     - /class-one
     - /class-two
 ```
+
+## Populating your dataset
+
+Shoot for 80% training data to 20% validation data.
+
+Some reference links:
+
+* https://stackoverflow.com/questions/13610074/is-there-a-rule-of-thumb-for-how-to-divide-a-dataset-into-training-and-validatio
+
+* https://www.researchgate.net/post/Is_there_an_ideal_ratio_between_a_training_set_and_validation_set_Which_trade-off_would_you_suggest
 
 ## Example
 Let's say you want to recognize cats vs. dogs. Your folder structure would look like:
