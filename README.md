@@ -1,12 +1,18 @@
 # A Sample Dataset for practicing Image Classification
 
-This repo contains a dataset in the `/data` folder appropriate for training an image classifier. It is intended to be used with the code [presented in this blog post](https://thekevinscott.com/image-classification-in-javascript).
+This repo is a companion for the article [Image Classification in the Browser with Javascript](https://thekevinscott.com/image-classification-in-javascript).
 
-All images were found via searching [https://pexels.com](https://www.pexels.com/search/sad%20face/).
+This repo contains data appropriate for training. [You can test image classification in your browser here](https://thekevinscott.github.io/ml-classifier-ui/).
 
-I've done my best to obtain a diverse set of images (by gender, race, and age) but since it's small, it's inevitably biased. For production purposes you would want to obtain a much more diverse dataset.
+Included in the `data` folder is:
 
-## Why Should a Dataset Be Diverse?
+* `data/pretrained-model-data` - A single image for testing for a valid prediction from MobileNet
+* `data/colors` - A simple dataset to be used as a sanity check that training is working correctly
+* `data/pexel-images` - A set of stock photography from the top three most popular categories on [Pexels](https://pexels.com)
+
+![An example of using the datasets](ml-classifier-example.gif)
+
+## Picking a Dataset
 
 It's important that the training images you use are as similar as possible to the images you will be eventually predicting.
 
@@ -28,7 +34,7 @@ To put together a dataset for training an image classifier, you need to organize
 
 ## Populating your dataset
 
-Shoot for 80% training data to 20% validation data.
+A good rule of thumb is 80% training data to 20% validation data.
 
 Some reference links:
 
