@@ -12,6 +12,27 @@ Included in the `data` folder is:
 
 ![An example of using the datasets](ml-classifier-example.gif)
 
+## Running
+
+Clone this repo:
+
+```
+git clone https://github.com/thekevinscott/dataset-tutorial-for-image-classification.git
+cd dataset-tutorial-for-image-classification
+```
+
+Install the packages with `yarn`:
+
+```
+yarn
+```
+
+Run the code with:
+
+```
+yarn develop
+```
+
 ## Picking a Dataset
 
 It's important that the training images you use are as similar as possible to the images you will be eventually predicting.
